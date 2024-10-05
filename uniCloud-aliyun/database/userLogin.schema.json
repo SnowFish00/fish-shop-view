@@ -1,0 +1,28 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["username","password"],
+	"permission": {
+		"read": true,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "存储文档 ID（用户 ID），系统自动生成"
+		},
+		"account": {
+			"bsonType": "string",
+			"title": "用户名",
+			"description": "用户名，不允许重复",
+			"trim": "both"
+		},
+		"password": {
+			"bsonType": "password",
+			"title": "密码",
+			"description": "密码，加密存储",
+			"trim": "both"
+		}	
+	}
+}

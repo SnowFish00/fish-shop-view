@@ -1,0 +1,117 @@
+
+.container-outer[data-v-09486d79] {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.collectAll[data-v-09486d79]{
+		width: 24rem;
+		height: 52rem;
+		display: flex;
+		position: relative;
+		background-color: black;
+}
+
+	/* 视频 */
+.video-main[data-v-09486d79] {
+		width: 24rem;
+		height: 50rem;
+		display: flex;
+		justify-content: center;
+}
+.swiper-outer[data-v-09486d79] {
+		width: 100%;
+		height: 100%;
+}
+.swiper[data-v-09486d79] {
+		width: 100%;
+		height: 100%;
+}
+.swiper-item[data-v-09486d79] {
+		height: 100%;
+		width: 100%;
+}
+.video-item[data-v-09486d79] {
+		width: 100%;
+		height: 100%;
+}
+
+	/* 顶栏 */
+.header-top[data-v-09486d79] {
+		width: 24rem;
+		height: 5rem;
+		position: absolute;
+		top: 0;
+		display: flex;
+		align-items: center;
+}
+.vitems[data-v-09486d79] {
+		display: flex;
+		margin-left: 4rem;
+}
+.vitem[data-v-09486d79] {
+		font-size: 1.2rem;
+		margin: 0 1.2rem;
+		color: rgba(190, 190, 190, 0.8);
+}
+#select[data-v-09486d79] {
+		color: rgba(255, 255, 255, 0.8);
+		margin-bottom: 0.3rem;
+		border-bottom: 0.3rem solid rgba(255, 255, 255, 0.8);
+}
+.search[data-v-09486d79] {
+		width: 6%;
+		height: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		left: 85%;
+}
+.search uni-image[data-v-09486d79] {
+		width: 100%;
+		height: 100%;
+}
+
+	/* authInfo */
+.auth[data-v-09486d79] {
+		width: 4rem;
+		height: 16rem;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 45%;
+		left: 80%;
+		align-items: center;
+		background-color: aquamarine;
+}
+.aPic[data-v-09486d79]{
+		width: 90%;
+		height: 22.5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: brown;
+}
+.aPic uni-image[data-v-09486d79]{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+}
+.func-item[data-v-09486d79]{
+		width: 60%;
+		height: 15%;
+		background-color: antiquewhite;
+}
+	
+	/* 底部信息 */
+.bottom-info[data-v-09486d79]{
+		width: 18rem;
+		height:5rem;
+		position: absolute;
+		left: 0;
+		bottom: 10%;
+		background-color: bisque;
+}

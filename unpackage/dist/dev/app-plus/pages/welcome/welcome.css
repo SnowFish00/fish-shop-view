@@ -1,0 +1,219 @@
+
+.main-context[data-v-085f0530] {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+}
+.tit[data-v-085f0530] {
+		margin-top: 5rem;
+		margin-bottom: 2rem;
+}
+.headShow[data-v-085f0530] {
+		width: 12rem;
+		height: 20%;
+		margin-top: 0.625rem;
+		margin-bottom: 0.9375rem;
+}
+.headShow uni-image[data-v-085f0530] {
+		width: 100%;
+		height: 100%;
+}
+.post-login[data-v-085f0530] {
+		width: 20rem;
+		height: 10%;
+}
+.post-login uni-form .together uni-input[data-v-085f0530] {
+		margin: 10px auto;
+		/* 设置透明边框 */
+		border: 5px solid transparent;
+		/* 浅灰色微微透明背景 */
+		background-color: rgba(211, 211, 211, 0.25);
+		border-radius: 10px;
+		height: 1.875rem;
+}
+.post-login uni-form uni-button[data-v-085f0530] {
+		margin-top: 0.9375rem;
+		border: 1px solid transparent;
+		background-color: rgba(220, 30, 55, 0.65);
+		border-radius: 25px;
+}
+.together[data-v-085f0530] {
+		display: flex;
+		align-items: center;
+		/* 垂直居中对齐 */
+		position: relative;
+		/* 使子元素绝对定位相对于此元素 */
+}
+.together uni-input[data-v-085f0530] {
+		width: 100%;
+		/* 确保输入框占满父元素 */
+		padding-right: 1.5625rem;
+		/* 给右侧留出空间放图标 */
+}
+.c-icon[data-v-085f0530] {
+		position: absolute;
+		/* 绝对定位 */
+		width: 0.9375rem;
+		height: 0.9375rem;
+		top: 50%;
+		/* 垂直居中 */
+		right: 0.78125rem;
+		/* 距离右侧的距离 */
+		transform: translateY(-50%);
+		/* 进一步居中 */
+		cursor: pointer;
+		/* 鼠标悬停时显示手形光标 */
+}
+.law uni-image[data-v-085f0530] {
+		width: 1.5625rem;
+		height: 1.5625rem;
+}
+.law span[data-v-085f0530] {
+		color: grey;
+}
+.law a[data-v-085f0530] {
+		text-decoration: none;
+		/* 去除下划线 */
+		color: rgba(30, 200, 250, 0.9);
+}
+.law a[data-v-085f0530]:active {
+		color: rgba(160, 60, 195, 0.9);
+}
+.law uni-label[data-v-085f0530] {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+}
+.law uni-label span[data-v-085f0530] {
+		position: absolute;
+		top: 5%;
+		width: 100%;
+		left: 1.875rem;
+}
+.otherDo[data-v-085f0530] {
+		display: flex;
+		justify-content: space-between;
+}
+.registDo[data-v-085f0530],
+	.forgetDo[data-v-085f0530] {
+		margin: 1.25rem 0.15625rem;
+		color: grey;
+}
+.registDo a[data-v-085f0530],
+	.forgetDo a[data-v-085f0530] {
+		text-decoration: none;
+		/* 去除下划线 */
+		color: grey;
+}
+.registDo a[data-v-085f0530]:active,
+	.forgetDo a[data-v-085f0530]:active {
+		color: rgba(160, 60, 195, 0.9);
+}
+.otherLogin[data-v-085f0530] {
+		margin-top: 15%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.otherText[data-v-085f0530] {
+		color: rgb(112 128 144);
+}
+.wqIcon[data-v-085f0530] {
+		display: flex;
+}
+.wqIcon uni-image[data-v-085f0530] {
+		width: 1.5625rem;
+		height: 1.5625rem;
+		margin: 1.5625rem 2.5rem;
+}
+
+	/* 提示框以及蒙层 */
+	/* 半透明的灰色背景 */
+.overlay[data-v-085f0530] {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(0, 0, 0, 0.5);
+		/* 半透明灰色 */
+		z-index: 1;
+}
+
+	/* 提示框 */
+.modal[data-v-085f0530] {
+		position: fixed;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 15rem;
+		height: 12rem;
+		min-width: 9.375rem;
+		min-height: 9.375rem;
+		background-color: #fff;
+		padding: 0.3125rem;
+		border-radius: 10px;
+		text-align: center;
+		z-index: 2;
+		/* 高于蒙层 */
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.modal uni-image[data-v-085f0530] {
+		width: 60%;
+		height: 60%;
+}
+.modal-message[data-v-085f0530] {
+		font-size: 0.9375rem;
+		font-weight: bold;
+}
+.buts[data-v-085f0530] {
+		margin-top: 1.5625rem;
+		width: 100%;
+		display: flex;
+}
+.modal-buttonA[data-v-085f0530] {
+		color: white;
+		background-color: rgba(119, 136, 153, 0.9);
+}
+.modal-buttonB[data-v-085f0530] {
+		color: white;
+		background-color: rgba(67, 205, 128, 0.9);
+}
+
+	/* 展示框 */
+.statusTopic[data-v-085f0530] {
+		position: fixed;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 15rem;
+		height: 12rem;
+		min-width: 9.375rem;
+		min-height: 9.375rem;
+		background-color: rgba(255, 255, 255, 0);
+		/* 完全透明 */
+		padding: 0.3125rem;
+		border-radius: 10px;
+		text-align: center;
+		z-index: 2;
+		/* 高于蒙层 */
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.statusTopic uni-image[data-v-085f0530] {
+		margin-top: 1.25rem;
+		margin-bottom: 0.9375rem;
+		width: 40%;
+		height: 50%;
+}
+.statusText[data-v-085f0530] {
+		font-size: 0.9375rem;
+		font-weight: bold;
+}

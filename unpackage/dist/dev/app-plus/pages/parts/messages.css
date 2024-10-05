@@ -1,0 +1,265 @@
+
+.msg-container[data-v-7b60bc7a] {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		background-color: rgba(205, 201, 201, 0.8);
+}
+
+	/* 悬浮顶栏 */
+.top-float-container[data-v-7b60bc7a] {
+		width: 24rem;
+		height: 3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+}
+.top-float[data-v-7b60bc7a] {
+		width: 24rem;
+		height: 3rem;
+		display: flex;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		z-index: 1;
+		background-color: rgba(255, 99, 71, 1);
+}
+.msg-self[data-v-7b60bc7a] {
+		width: 30%;
+		height: 80%;
+		margin-left: 0.5rem;
+		display: flex;
+		align-items: center;
+		margin-left: 40%;
+		font-size: 1rem;
+		font-weight: bold;
+		white-space: nowrap;
+}
+.msg-icons[data-v-7b60bc7a] {
+		width: 30%;
+		height: 70%;
+		display: flex;
+		align-items: center;
+		position: absolute;
+		left: 70%;
+}
+.icon-item[data-v-7b60bc7a] {
+		width: 20%;
+		height: 65%;
+		margin-left: 0.3rem;
+		margin-right: 0.3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.icon-item uni-image[data-v-7b60bc7a] {
+		width: 100%;
+		height: 100%;
+}
+
+	/* 滚动广告 */
+.AD[data-v-7b60bc7a] {
+		width: 24rem;
+		height: 2rem;
+		display: flex;
+		align-items: center;
+		background-color: rgba(255, 165, 79, 0.5);
+}
+.ad-icon[data-v-7b60bc7a] {
+		width: 5%;
+		height: 60%;
+		margin-left: 0.5rem;
+		display: flex;
+		justify-items: center;
+		align-items: center;
+}
+.ad-icon uni-image[data-v-7b60bc7a] {
+		width: 100%;
+		height: 100%;
+}
+.ad-info[data-v-7b60bc7a] {
+		width: 80%;
+		height: 60%;
+		display: flex;
+		align-items: center;
+		margin-left: 0.3rem;
+		color: #FF8C00;
+}
+
+	/* 消息分类 */
+.mag-sort[data-v-7b60bc7a] {
+		width: 24rem;
+		height: 4rem;
+		display: flex;
+		align-items: center;
+}
+.sort-item[data-v-7b60bc7a] {
+		width: 15%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		margin-left: 1rem;
+}
+.sort-cion[data-v-7b60bc7a] {
+		width: 70%;
+		height: 70%;
+}
+.sort-cion uni-image[data-v-7b60bc7a] {
+		width: 100%;
+		height: 100%;
+}
+.sort-info[data-v-7b60bc7a] {
+		width: 90%;
+		height: 30%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		white-space: nowrap;
+		font-size: 0.5rem;
+}
+.show-num-tag[data-v-7b60bc7a] {
+		width: 1.2rem;
+		height: 1.2rem;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		left: 80%;
+}
+.show-num-tag uni-text[data-v-7b60bc7a] {
+		display: block;
+		width: 1rem;
+		height: 1rem;
+		font-size: 0.5rem;
+		text-align: center;
+		border: 0.03125rem solid transparent;
+		border-radius: 50%;
+		background-color: #d81e06;
+}
+
+	/* 消息 */
+.msg-main[data-v-7b60bc7a] {
+		width: 24rem;
+		margin-top: 0.5rem;
+		border: 0.03125rem solid transparent;
+		border-radius: 1.25rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: rgba(238, 233, 233, 1);
+}
+.talk-item[data-v-7b60bc7a]{
+		width: 95%;
+		height: 4rem;
+		display: flex;
+		align-items: center;
+		margin-top: 0.3rem;
+		position: relative;
+		margin-bottom: 0.1rem;
+}
+.shop-self-pic[data-v-7b60bc7a]{
+		width:15%;
+		height: 80%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 0.3rem;
+}
+.shop-self-pic uni-image[data-v-7b60bc7a]{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+}
+.talk-right[data-v-7b60bc7a]{
+		width: 80%;
+		height: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0.3rem;
+}
+.talk-top[data-v-7b60bc7a]{
+		width: 100%;
+		height: 45%;
+		position: relative;
+		display: flex;
+		align-items: center;
+}
+.shop-name[data-v-7b60bc7a]{
+		width: 60%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+}
+.shop-name uni-text[data-v-7b60bc7a]{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+}
+.talk-data[data-v-7b60bc7a]{
+		width: 35%;
+		height: 60%;
+		position: absolute;
+		left: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.talk-data uni-text[data-v-7b60bc7a]{
+		font-size: 0.5rem;
+		color: rgba(130,130,130, 1);
+}
+.talk-bottom[data-v-7b60bc7a]{
+		width: 100%;
+		height: 55%;
+		position: relative;
+		display: flex;
+		align-items: center;
+}
+.talk-perview[data-v-7b60bc7a]{
+		width: 80%;
+		height: 80%;
+		display: flex;
+		align-items: center;
+}
+.talk-perview uni-text[data-v-7b60bc7a]{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 0.8rem;
+		color: rgba(130,130,130, 1);
+}
+.talk-unread[data-v-7b60bc7a]{
+		width: 8%;
+		height: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		left:90% ;
+}
+.talk-unread uni-text[data-v-7b60bc7a]{
+		width: 1rem;
+		height: 1rem;
+		border: 0.03125rem solid transparent;
+		border-radius: 50%;
+		font-size: 0.8rem;
+		text-align: center;
+		color: rgba(255, 255, 255, 0.8);
+		background-color: #d81e06;
+}
+	
+	/* 分割线 */
+.spilt[data-v-7b60bc7a]{
+		position: absolute;
+		width: 80%;
+		height: 3%;
+		left: 20%;
+		bottom: 0;
+		background-color:rgba(105, 105, 105, 0.8) ;
+}

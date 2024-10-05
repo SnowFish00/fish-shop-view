@@ -1,0 +1,195 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper[data-v-c6147f56] {
+  width: 24rem;
+  height: 15rem;
+  margin: 0 auto;
+}
+.swiper uni-image[data-v-c6147f56] {
+  width: 90%;
+  border-radius: 0.46875rem;
+  margin: 0 auto;
+}
+.swiper-images[data-v-c6147f56] {
+  display: flex;
+  justify-content: center;
+}
+
+.container[data-v-9e2491f0] {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+}
+
+	/* 头部悬浮 */
+.top-area[data-v-9e2491f0] {
+		width: 30rem;
+		height: 15%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: linear-gradient(to bottom, #ffc0cb, #ffffff);
+		position: fixed;
+		z-index: 1;
+}
+.tit[data-v-9e2491f0] {
+		margin-top: 0.9375rem;
+}
+.tit uni-text[data-v-9e2491f0] {
+		font-size: 1rem;
+		font-weight: 100;
+}
+.search[data-v-9e2491f0] {
+		display: flex;
+		/* 保证垂直居中 后续移动绝对定位 */
+		align-items: center;
+		position: relative;
+		width: 21rem;
+		margin: 1.5625rem auto;
+}
+.siput[data-v-9e2491f0] {
+		width: 100%;
+		padding-top: 0.15625rem;
+		padding-bottom: 0.15625rem;
+		padding-left: 1.5625rem;
+		padding-right: 2.5rem;
+		border: 0.09375rem solid black;
+		border-radius: 0.625rem;
+}
+.search uni-image[data-v-9e2491f0]:nth-of-type(1) {
+		position: absolute;
+		width: 1.25rem;
+		height: 1.25rem;
+		top: 20%;
+		left: 0.3125rem;
+}
+.search-btn[data-v-9e2491f0] {
+		position: absolute;
+		top: 10%;
+		right: 0.3125rem;
+		width: 3.125rem;
+		height: 1.40625rem;
+		text-align: center;
+		/* 水平居中 */
+		line-height: 1.25rem;
+		/* 行高设置为与按钮高度一致，确保垂直居中 */
+		font-size: 0.625rem;
+		white-space: nowrap;
+		/* 禁止换行 */
+		border-radius: 0.46875rem;
+		background-color: rgba(238, 59, 59, 1);
+		color: white;
+}
+
+	/* 幻灯片 */
+.slide-show[data-v-9e2491f0] {
+		/* 与 move-top 的高度保持一致，避免重叠 */
+		margin-top: 18vh;
+}
+
+	/* 功能栏 */
+.task[data-v-9e2491f0] {
+		width: 25rem;
+		height: 8%;
+		display: flex;
+		justify-content: center;
+		margin-top: 0.9375rem;
+}
+.first-task[data-v-9e2491f0] {
+		width: 100%;
+		margin: 0 1.5625rem;
+		display: flex;
+		align-items: center;
+		border-radius: 0.625rem;
+		background-color: rgba(238, 233, 233, 0.3);
+}
+.task-together[data-v-9e2491f0] {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 1.09375rem;
+}
+.task-together uni-image[data-v-9e2491f0] {
+		width: 2.1875rem;
+		height: 2.1875rem;
+}
+
+	/* 商品加载 */
+.shopping-show[data-v-9e2491f0] {
+		width: 22rem;
+		column-count: 2;
+		column-gap: 0.0625rem;
+		margin: 1.5625rem auto;
+}
+.shop-item[data-v-9e2491f0] {
+		display: flex;
+		flex-direction: column;
+		padding: 0.0625rem;
+		margin: 0 0.0625rem;
+		margin-bottom: 0.3125rem;
+		/* 避免在列之间断开 */
+		break-inside: avoid-column;
+		border: 0.03125rem solid #2E8B57
+}
+.shop-item uni-image[data-v-9e2491f0] {
+		display: block;
+		width: 100%;
+}
+.shopShow[data-v-9e2491f0] {
+		display: flex;
+		flex-direction: column;
+}
+.money p[data-v-9e2491f0] {
+		display: inline-block;
+}
+#oldPrice[data-v-9e2491f0] {
+		font-size: 0.09375rem;
+		margin-left: 0.15625rem;
+		color: rgba(119, 136, 153, 0.9);
+}
+#newPrice[data-v-9e2491f0] {
+		font-size: 0.75rem;
+		color: rgba(238, 44, 44, 0.9);
+}
+.tags-container[data-v-9e2491f0] {
+		display: flex;
+}
+.tags[data-v-9e2491f0] {
+		display: inline-block;
+		margin-right: 0.15625rem;
+		font-size: 0.03125rem;
+		color: rgba(255, 130, 71, 0.8);
+}
+.lowest[data-v-9e2491f0]{
+		display: flex;
+		justify-content: center;
+		width: 20rem;
+}
+.lowest uni-image[data-v-9e2491f0]{
+		width: 100%;
+}
